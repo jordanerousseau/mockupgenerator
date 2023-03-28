@@ -1,0 +1,10 @@
+{
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\MockupGenerator\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{mockupgenerator}prestashop>mockupgenerator_155dc928240e9524aa93f196e95b49a0'] = 'Générateur d\'images à partir de mockups';
+$_MODULE['<{mockupgenerator}prestashop>mockupgenerator_005d8c632deaa1b3f9109fe5cf8196bf'] = 'Génère des images de produits à partir de mockups.';
+$_MODULE['<{mockupgenerator}prestashop>mockupgenerator_876f23178c29dc2552c0b48bf23cd9bd'] = 'Êtes-vous sûr(e) de vouloir désinstaller ?';
+$_MODULE['<{mockupgenerator}prestashop>mockupgenerator_2a9630ec3561784ad06cf00a2825e086'] = 'Aucun nom';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_49ee3087348e8d44e1feda1917443987'] = 'Nom';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_be53a0541a6d36f6ecb879fa2c584b08'] = 'Image';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_63467bab109c709f4d915aca5d66f475'] = 'Mockup';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_85702e5968e1616bd5c577cf306b9806'] = 'Décalage X';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_c681a71e05ff86d1794918a999ec2669'] = 'Entrez le décalage X pour l\'image du mockup.';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_73411f5996beaef37222d8cac0b89b71'] = 'Décalage Y';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_4da08a99399c83da116fb950bea526c0'] = 'Entrez le décalage Y pour l\'image du mockup.';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_df7f66fe847583dcdf24b8401c3e88ee'] = 'Téléchargez une nouvelle image pour remplacer l\'actuelle ou laissez vide pour conserver l\'image existante.';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_bc35e602b3cad322d1914b1e91206d4b'] = 'Le nom est requis.';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_aff8dbaabcabbecc9b2c74cfb37ea973'] = 'Image requise.';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_efcb51b2a06f998862f2c96b3684696c'] = 'Impossible de changer le nom d\'un mockup existant.';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_79b82b75ec57a2734c34cdc9b127116d'] = 'Un mockup avec ce nom existe déjà.';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_18d88567db6436da76b5088346ddb676'] = 'Échec du téléchargement de l\'image.';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_08de2fdaabcd120b8ca1388d21179921'] = 'Accès refusé';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_ddddecc3a9e924744d16bc071fd35ac6'] = 'Mockup supprimé avec succès.';
+$_MODULE['<{mockupgenerator}prestashop>adminmockupscontroller_88750a1cc9c37f33fe4f98e414df5115'] = 'Mockup invalide.';
+$_MODULE['<{mockupgenerator}prestashop>mgmockupuploader_500425f07de4250b0f5d1cd596629459'] = 'Format d\'image invalide.';
+$_MODULE['<{mockupgenerator}prestashop>productextra_155dc928240e9524aa93f196e95b49a0'] = 'Générateur d\'images à partir de mockups';
+$_MODULE['<{mockupgenerator}prestashop>productextra_1d18ffbee174587a97ced57127607685'] = 'Décalage X pour Mockup';
+$_MODULE['<{mockupgenerator}prestashop>productextra_82010efe0083615cd5e75a1159cf586f'] = 'Décalage Y pour Mockup';
