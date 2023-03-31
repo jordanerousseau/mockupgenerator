@@ -13,7 +13,13 @@ class MGMockupUploader
 
             $imageDir = _PS_IMG_DIR_ . 'm/mockups/';
             $ext = pathinfo($file['name'], PATHINFO_EXTENSION);
-            $imageName = $tools->link_rewrite($name) . '.' . $ext;
+
+            if (version_compare(_PS_VERSION_, '8.0.0', '<')) {
+                $imageName = $tools->link_rewrite($name) . '.' . $ext;
+            } else {
+                $imageName = $tools->linkRewrite($name) . '.' . $ext;
+            }
+			
             $thumbnailName = $id . '.jpg';
     
             if (!in_array($ext, ['jpg', 'jpeg', 'png', 'gif'])) {

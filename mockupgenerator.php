@@ -47,7 +47,7 @@ class MockupGenerator extends Module
 	{
 		$this->name = 'mockupgenerator';
 		$this->tab = 'front_office_features';
-		$this->version = '1.0.2';
+		$this->version = '1.0.3';
 		$this->author = 'Wanted Design';
 		$this->need_instance = 0;
 		$this->ps_versions_compliancy = [
