@@ -9,8 +9,8 @@ class MGProductOffsets extends MGProduct
     public static function saveProductMockupOffsets($product, $mockupData, $submittedOffsets)
     {
         foreach ($mockupData as $mockup) {
-            $offsetXKey = 'mockup_offset_x_' . $mockup['id_mockup'];
-            $offsetYKey = 'mockup_offset_y_' . $mockup['id_mockup'];
+            $offsetXKey = 'x_' . $mockup['id_mockup'];
+            $offsetYKey = 'y_' . $mockup['id_mockup'];
     
             // Check if custom offsets were submitted for this mockup
             if (isset($submittedOffsets[$offsetXKey]) && isset($submittedOffsets[$offsetYKey])) {
