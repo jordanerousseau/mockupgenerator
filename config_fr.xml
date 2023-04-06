@@ -2,7 +2,7 @@
 <module>
     <name>mockupgenerator</name>
     <displayName><![CDATA[G&eacute;n&eacute;rateur d&#039;images &agrave; partir de mockups]]></displayName>
-    <version><![CDATA[1.0.4]]></version>
+    <version><![CDATA[1.0.5]]></version>
     <description><![CDATA[G&eacute;n&egrave;re des images de produits &agrave; partir de mockups.]]></description>
     <author><![CDATA[Wanted Design]]></author>
     <tab><![CDATA[front_office_features]]></tab>

@@ -70,7 +70,7 @@ class MGProductImage
 			$canvas = $imageManager->canvas($mockupWidth, $mockupHeight, $backgroundColor);
 
 			// Insert the product image on the canvas
-			$canvas->insert($productImage, 'top-left', $positionX, $positionY);
+			$canvas->insert($productImage, 'top-left', (int) $positionX, (int) $positionY);
 
 			// Apply mockup to product image
 			$canvas->insert($mockupImage, 'center');
